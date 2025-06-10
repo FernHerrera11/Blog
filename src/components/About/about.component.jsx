@@ -29,7 +29,7 @@ useEffect(() => {
 return (
 
 <div className="about">
-    
+    =
     {users.map(({name, email }) => (
         <Card key={name} name={name} email={email} />
     ))}
